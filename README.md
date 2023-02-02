@@ -6,7 +6,10 @@
 - [x] Criar visual do ativador do cronometro
 - [x] Conectar o ativador do cronometro com a função de criar cronometro
 - [x] Disparar um aviso ao fim do cronometro
-- [ ] Exibir visualmente tempo restante
+- [x] Criar a logica do contador de segundos
+- [ ] calcular o tempo restante
+- [ ] Criar componente do cronometro na tela
+- [ ] Exibir visualmente tempo restante no componente do cronometro
 - [ ] Ter uma outra ativação do cronometro com menos tempo para o intervalo
 - [ ] Exibir contagem de pomodoros
 - [ ] Depois de 4 pomodoros ativar um intervalo longo de 15 minutos
