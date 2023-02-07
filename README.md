@@ -7,7 +7,7 @@
 - [x] Conectar o ativador do cronometro com a função de criar cronometro
 - [x] Disparar um aviso ao fim do cronometro
 - [x] Criar a logica do contador de segundos
-- [ ] calcular o tempo restante
+- [x] calcular o tempo restante
 - [ ] Criar componente do cronometro na tela
 - [ ] Exibir visualmente tempo restante no componente do cronometro
 - [ ] Ter uma outra ativação do cronometro com menos tempo para o intervalo
@@ -24,3 +24,4 @@
 - [ ] Configurar quantidade de tempo do bloco de trabalho e do bloco de intervalo
 - [ ] Lista de tarefas executadas
 - [ ] Salvar o status no localStorage para se a aba for encerrada
+- [ ] Função de esconder o timer

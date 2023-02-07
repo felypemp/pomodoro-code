@@ -1,18 +1,24 @@
-const segundosPomodoro = 4000 //25*60*1000;
+const milissegundosPomodoro = 4000 //25*60*1000;
 const disparador = document.querySelector('#disparador');
+let milissegundosRestantes = milissegundosPomodoro - 1000;
+let contador;
 
 disparador.addEventListener('click', () => {
     console.log('Pomodoro ativado')
-    setTimeout(() => {
-        alert("O seu tempo do pomodoro acabou!");
 
-        clearInterval(contador);
-    }, segundosPomodoro)
+    console.log('Faltam', milissegundosPomodoro/1000)
 
-    let contador = setInterval('contadorDeSegundos()', 1000)
+    contador = setInterval('contadorDeSegundos()', 1000)
 })
 
 
 function contadorDeSegundos() {
-    console.log('tic')
+    if (milissegundosRestantes == 0) {
+        alert("O seu tempo do pomodoro acabou!");
+        clearInterval(contador);
+    } else {
+        console.log('Faltam', milissegundosRestantes/1000)
+    }
+
+    milissegundosRestantes -= 1000;
 }
